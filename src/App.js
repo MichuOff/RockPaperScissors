@@ -1,4 +1,4 @@
-import React, { Component, Button } from 'react';
+import React, { Component } from 'react';
 import 'spectre.css';
 import './App.css';
 import Play from './views/Play';
