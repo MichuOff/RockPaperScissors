@@ -1,0 +1,43 @@
+.some-page-wrapper {
+    margin: 15px;
+    background-color: grey;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+  
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+}
+  
+.rock-column {
+    /* background-color: blue; */
+    height: 100%;
+    text-align: center;
+}
+  
+.paper-column {
+      height: 100%;
+      text-align: center;
+      /* background-color: green; */
+}
+
+.siscors-column {
+    height: 100%;
+    text-align: center;
+    /* background-color: green; */
+}
